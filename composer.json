@@ -14,7 +14,7 @@
   ],
   "autoload": {
     "psr-4": {
-      "Yzen\\": "src/"
+      "RequestAdapter\\": "src/"
     }
   },
   "require": {
