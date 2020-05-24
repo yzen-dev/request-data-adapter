@@ -1,4 +1,7 @@
 ## RequestDataAdapter - Adapter for converting input data from Illuminate\Http\Request
+<img alt="Packagist Downloads" src="https://img.shields.io/packagist/dm/yzen.dev/request-data-adapter">
+<img alt="Packagist Downloads" src="https://img.shields.io/packagist/dt/yzen.dev/request-data-adapter">
+
 This package provides easy conversion of input keys to your internal keys.
 
 This adapter is perfect for you if for example you do not want to give your internal keys containing typos (but we know that you can’t have this😉), or vice versa, translate incorrect keys into the correct form.
