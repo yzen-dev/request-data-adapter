@@ -8,7 +8,7 @@ namespace RequestAdapter;
  */
 trait RequestDataAdapter
 {
-    
+
     /**
      * Get formatted input dataset
      *
@@ -18,7 +18,7 @@ trait RequestDataAdapter
     {
         return $this->getMappingData($this->request->all());
     }
-    
+
     /**
      * Convert data by mappingData
      *
@@ -36,13 +36,13 @@ trait RequestDataAdapter
                 $result[$key] = $this->getMappingData($value, $mappingData[$key]);
                 continue;
             }
-            if ($mappingData[$key]) {
+            if (isset($mappingData[$key])) {
                 $result[$mappingData[$key]] = $value;
             }
         }
         return $result;
     }
-    
+
     /**
      * Sourcemap data conversion
      *

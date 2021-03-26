@@ -1,6 +1,6 @@
 {
   "name": "yzen.dev/request-data-adapter",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Adapter for converting input data from Illuminate\\Http\\Request",
   "minimum-stability": "dev",
   "prefer-stable": true,
